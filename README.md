@@ -30,7 +30,7 @@ sudo pip install -r requirements.txt
     Type=simple
     WorkingDirectory=/usr/bin/ddns4regru
 
-    ExecStart=python3 ddns_updater.py
+    ExecStart=python3 ddns_updater.py <ЛОГИН> <ПАРОЛЬ>
     Restart=always
 
     [Install]
