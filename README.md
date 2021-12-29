@@ -13,6 +13,7 @@ sudo pip install -r requirements.txt
 ```
 ###### Создайте файл *"domains.txt"* в папке скрипта
 Структура файла состоит из блоков, отделенных пустой строкой. В каждом блоке первая строка - имя домена, остальные несколько - поддомены.
+
 [![File](https://i.ibb.co/4PY11cp/image.png "File")](https://ibb.co/hDZYYkV "File")
 
 ## Подготовка к запуску
@@ -35,7 +36,6 @@ sudo pip install -r requirements.txt
 
     [Install]
     WantedBy=multi-user.target
-
 ###### Запустите
 ```bash
 sudo systemctl enable ddns4regru
